@@ -7,8 +7,8 @@
     "start": "webpack-dev-server --config ./webpack.config.js"
   },
   "keywords": [],
-  "author": "Mosh Hamedani",
-  "license": "ISC",
+  "author": "",
+  "license": "",
   "devDependencies": {
     "webpack": "4.41.6",
     "webpack-cli": "3.3.11",
