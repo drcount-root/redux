@@ -28,7 +28,26 @@
 //
 //
 
-import store from "./customStore";
+// import store from "./customStore";
+// import * as act from "./actions";
+
+// store.subscribe(() => {
+//   console.log("Store changed!");
+// });
+
+// store.dispatch(act.bugAdded("Bug 1"));
+
+// console.log(store.getState());
+
+//
+//
+//
+//
+//
+//
+//
+
+import store from "./store";
 import * as act from "./actions";
 
 store.subscribe(() => {
@@ -36,5 +55,9 @@ store.subscribe(() => {
 });
 
 store.dispatch(act.bugAdded("Bug 1"));
+store.dispatch(act.bugAdded("Bug 2"));
+store.dispatch(act.bugAdded("Bug 3"));
+
+store.dispatch(act.bugResolved(1));
 
 console.log(store.getState());
